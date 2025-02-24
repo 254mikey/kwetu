@@ -1,0 +1,115 @@
+body {
+    text-transform: capitalize;
+    background: url(kwetu2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Great Vibes", cursive;
+    font-size: 20px;
+}
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;}
+
+
+.container {
+    width: 200px;
+    height: fit-content;
+    padding: 100px;
+    background-color: rgb(37, 2, 2);
+    color: #ddd;
+    align-content: center;
+    border-radius: 10px;
+    line-height: 2;
+
+} 
+
+li {
+  list-style: none;
+}
+
+
+button {
+    background-color: hsl(240, 79%, 46%);
+    color: #fffffff8;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+  
+}
+h1 {
+  color: rgb(195, 95, 8);
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;}
+
+button:hover {
+    background-color: rgb(195, 95, 8);
+}
+
+button:active {
+    background-color: #0af6a7;
+}
+
+
+
+.contact {
+    background-color: rgb(195, 95, 8);
+    padding: 20px;
+    font-weight: bold;
+    color: #fffffff8;
+    line-height: 2;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.about {
+    background: rgb(88, 29, 29);
+    color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: center;
+}
+
+.products1, .products2, .products3 {
+  width: 30%;
+  height: 90%;
+  background-color: rgb(37, 2, 2);
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+  line-height: 1;
+  border-radius: 8px;
+  gap: 10px;
+  margin: 10px;
+  font-size: 15px;
+}
+
+.container1 {
+  width: 20%;
+  height: fit-content;
+  padding: 100px;
+  background-color: rgb(37, 2, 2);
+  color: #ddd;
+  align-content: center;
+  border-radius: 10px;
+  line-height: 1;
+  margin: 10px;
+
+}
